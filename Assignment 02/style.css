@@ -1,0 +1,506 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.Header{
+    display: flex;
+    padding: 10px;
+    box-sizing: border-box;
+    justify-content: center;
+    gap: 30px;
+    border: 1px solid transparent;
+   background-color: #F7F7F9;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    color: #535355;
+}
+.Header button{
+    border: 1px solid transparent;
+    background-color: transparent;
+    color: #535355;
+}
+.header1{
+    height:100%;
+    width: 100%;
+    background-image: url(images/hero_holiday_2024__bbs03706zple_medium.jpg);
+    background-position: center;
+}
+.header1>div>h1{
+    display: flex;
+    position: absolute;
+    top: 76%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    font-size: 55px;
+    color: #1D1D1F;
+    font-weight: 600;
+}
+.dscrp{
+    display: flex;
+    position: absolute;
+    top: 86%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    font-size: 28px;
+    color: #1D1D1F;
+    letter-spacing: -1px ;
+}
+.mainbtn{
+    display: flex;
+    position: absolute;
+    top: 96%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    font-size: 19px;
+    color: white;
+    background-color: #0077ED;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: #0077ED 1px solid;
+}
+#s2{
+    height: 92%;
+    width: 100%;
+    background-image: url(images/hero_theweeknd_openhearts__hnweuxar36em_medium.jpg);
+    background-position: center;
+    border-bottom: 12px solid white;
+    border-top: 12px solid white;
+    
+}
+
+.s21{
+    display: flex;
+    position: absolute;
+    top: 161%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.s22{
+    color: #FFFFFF;
+    margin: 20px 0px 0px 0px;
+    position: absolute;
+    top: 171%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.s23{
+    display: flex;
+    position: absolute;
+    top: 181%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.s23 button{
+    border-radius: 25px;
+    padding: 11px 21px;
+    margin: 20px 0px 0px 13px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: #FFFFFF;
+}
+.s23 :hover{
+    background-color: #FFFFFF;
+    cursor: pointer;
+    color: #1D1D1F;
+}
+#s3{
+    height: 92%;
+    width: 100%;
+    background-image: url(images/hero_iphone16pro_avail__fnf0f9x70jiy_medium.jpg);
+    background-position: center;
+    border-bottom: 12px solid white;
+}
+.s31{
+    font-size: 26px;
+    color: #FFFFFF;
+    position: absolute;
+    left: 50%;
+    top: 210%;
+    transform: translate(-50%, -50%);
+}
+.s32{
+    color: #FFFFFF;
+    font-size: 28px;
+    position: absolute;
+    left: 50%;
+    top: 218%;
+    transform: translate(-50%, -50%);
+}
+.s33{
+    display: flex;
+    position: absolute;
+    left: 50%;
+    top: 226%;
+    transform: translate(-50%, -50%);
+}
+.s33 button{
+    border-radius: 25px;
+    padding: 11px 21px;
+    margin: 20px 0px 0px 13px;
+    border: 2px solid #0077ED;
+    background-color: transparent;
+    color: #0077ED;
+}
+.s33 :hover{
+    background-color:#0077ED ;
+    cursor: pointer;
+    color:#FFFFFF ;
+}
+
+#s4{
+    height: 92%;
+    width: 100%;
+    background-image: url(https://www.apple.com/v/home/bv/images/heroes/iphone-16/hero_iphone16_avail__euwzls69btea_large.jpg);
+    background-position: center;
+    border-bottom: 12px solid white;
+}
+.s41{
+    font-size: 26px;
+    color: #FFFFFF;
+    position: absolute;
+    left: 50%;
+    top: 300%;
+    transform: translate(-50%, -50%);
+}
+.s42{
+    color: #FFFFFF;
+    font-size: 28px;
+    position: absolute;
+    left: 50%;
+    top: 308%;
+    transform: translate(-50%, -50%);
+}
+.s43{
+    display: flex;
+    position: absolute;
+    left: 50%;
+    top: 315%;
+    transform: translate(-50%, -50%);
+}
+.s43 button{
+    border-radius: 25px;
+    padding: 11px 21px;
+    margin: 20px 0px 0px 13px;
+    border: 2px solid #FFFFFF;
+    background-color: transparent;
+    color: #FFFFFF;
+}
+.s43 :hover{
+    background-color:#FFFFFF ;
+    cursor: pointer;
+    color:#1D1D1F ;
+}
+
+#s5{
+    height: 96%;
+    width: 100%;
+    background-image: url(images/hero_ipad_air__enn6321t3tkm_large.jpg);
+    background-position: center;
+    object-fit: cover;
+    background-position: center;
+    border-bottom: 12px solid white;
+    
+}
+.s51{
+    font-size: 26px;
+    color: #FFFFFF;
+    position: absolute;
+    left: 50%;
+    top: 390%;
+    transform: translate(-50%, -50%);
+}
+.s52{
+    color: #1D1D1F;
+    font-size: 28px;
+    position: absolute;
+    left: 50%;
+    top: 398%;
+    transform: translate(-50%, -50%);
+}
+.s53{
+    display: flex;
+    position: absolute;
+    left: 50%;
+    top: 405%;
+    transform: translate(-50%, -50%);
+}
+.s53 button{
+    border-radius: 25px;
+    padding: 11px 21px;
+    margin: 20px 0px 0px 13px;
+    border: 2px solid #0077ED;
+    background-color: transparent;
+    color: #0077ED;
+}
+.s53 :hover{
+    background-color:#0077ED ;
+    cursor: pointer;
+    color:#FFFFFF ;
+}
+.s54{
+   background-image: linear-gradient(#0a599b, #6969e7, #8a5ee9, #a357c4, #d34482, #ec3929);
+    color: transparent;
+    background-clip: text;
+    font-size: 24px;
+    position: absolute;
+    left: 50%;
+    top: 460%;
+    transform: translate(-50%, -50%);
+}
+
+#s6{
+    height:100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.s61{
+    background-image: url(https://www.apple.com/v/home/bv/images/promos/airpods-4/promo_airpods_4_avail__bl22kvpg6ez6_large.jpg);
+    width: 48.5%;
+    height: 100%;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: -18px 0px;
+}
+.s611{
+    color: #FFFFFF;
+    font-size: 28px;
+    position: absolute;
+    left: 25%;
+    top: 537%;
+    transform: translate(-50%, -50%);
+}
+
+.s612{
+    color: #FFFFFF;
+    font-size: 28px;
+    position: absolute;
+    left: 25%;
+    top: 546%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.s613{
+    display: flex;
+    position: absolute;
+    left: 25%;
+    top: 555%;
+    transform: translate(-50%, -50%);
+}
+.s613 button{
+    border-radius: 25px;
+    padding: 11px 21px;
+    margin: 20px 0px 0px 13px;
+    border: 2px solid #0077ED;
+    background-color: transparent;
+    color: #0077ED;
+}
+.s613 :hover{
+    background-color:#0077ED ;
+    cursor: pointer;
+    color:#FFFFFF ;
+}
+
+
+.s62{
+    background-image: url(https://www.apple.com/v/home/bv/images/promos/apple-watch-series-10/promo_apple_watch_series_10_avail_lte__c70y29goir42_large.jpg);
+    height: 100%;
+    width: 48.5%;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: -18px 0px;
+}
+.s621{
+    font-size: 26px;
+    color: #FFFFFF;
+    position: absolute;
+    left: 75%;
+    top: 488%;
+    transform: translate(-50%, -50%);
+}
+.s622{
+    color: #1D1D1F;
+    font-size: 28px;
+    position: absolute;
+    left: 75%;
+    top: 496%;
+    transform: translate(-50%, -50%);
+}
+.s623{
+    display: flex;
+    position: absolute;
+    left: 75%;
+    top: 502%;
+    transform: translate(-50%, -50%);
+}
+.s623 button{
+    border-radius: 25px;
+    padding: 11px 21px;
+    margin: 20px 0px 0px 13px;
+    border: 2px solid #0077ED;
+    background-color: transparent;
+    color: #0077ED;
+}
+.s623 :hover{
+    background-color:#0077ED ;
+    cursor: pointer;
+    color:#FFFFFF ;
+}
+
+
+#s7{
+    height:100%;
+    width: 100%;
+    display: flex;
+    margin: -18.5px -20px 0px 0px;
+    justify-content: space-evenly;
+}
+.s71{
+    background-image: url(https://www.apple.com/v/home/bv/images/promos/macbook-air-m3/promo_macbook_air_m3__e43jegok3wuq_large.jpg);
+    width: 48.5%;
+    height: 100%;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: -18px 0px;
+}
+.s711{
+    color: #1D1D1F;
+    font-size: 28px;
+    position: absolute;
+    left: 25%;
+    top: 580%;
+    transform: translate(-50%, -50%);
+}
+
+.s712{
+    color: #1D1D1F;
+    font-size: 24px;
+    position: absolute;
+    left: 25%;
+    top: 587%;
+    transform: translate(-50%, -50%);
+    
+}
+.s713{
+    display: flex;
+    position: absolute;
+    left: 25%;
+    top: 593%;
+    transform: translate(-50%, -50%);
+}
+.s713 button{
+    border-radius: 25px;
+    padding: 11px 21px;
+    margin: 20px 0px 0px 13px;
+    border: 2px solid #0077ED;
+    background-color: transparent;
+    color: #0077ED;
+}
+.s713 :hover{
+    background-color:#0077ED ;
+    cursor: pointer;
+    color:#0077ED;
+}
+
+
+
+.s72{
+    background-image: url(https://www.apple.com/v/home/bv/images/promos/airpods-pro-2/promo_airpods_pro_2_avail__vkitqi3okwie_large.jpg);
+    height: 100%;
+    width: 48.5%;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: -18px 0px;
+}
+.s721{
+    font-size: 26px;
+    color: #FFFFFF;
+    position: absolute;
+    left: 75%;
+    top: 635%;
+    transform: translate(-50%, -50%);
+}
+.s722{
+    color: #FFFFFF;
+    font-size: 20px;
+    position: absolute;
+    text-align: center;
+    font-weight: 700;
+    left: 75%;
+    top: 645%;
+    transform: translate(-50%, -50%);
+}
+.s723{
+    display: flex;
+    position: absolute;
+    
+    left: 75%;
+    top: 655%;
+    transform: translate(-50%, -50%);
+}
+.s723 button{
+    border-radius: 25px;
+    padding: 11px 21px;
+    margin: 20px 0px 0px 13px;
+    border: 2px solid #0077ED;
+    background-color: transparent;
+    color: #0077ED;
+}
+.s723 :hover{
+    background-color:#0077ED ;
+    cursor: pointer;
+    color:#FFFFFF ;
+}
+
+.text{
+    text-align: start;
+    background-color: #F5F5F7;
+    margin-top: -20px;
+
+}
+.detail{
+    margin-bottom: 4px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 20px;
+    color: #7C7C7D;
+    font-size: 15px;
+}
+
+.table{
+    border: 1px solid transparent;
+    font-size: small;
+    color: #535355;
+    display: flex;
+    margin: 20px 100px;
+    justify-content: space-between;
+    text-align: center;
+}
+.table table{
+    border: 1px solid transparent;
+    line-height: 22px;
+    text-align: left;
+}
+
+.table1{
+    color: #1D1D1F;
+}
+
+.line{
+    border: 1px solid #a3a3a7;
+    margin: 25px 150px;
+}
