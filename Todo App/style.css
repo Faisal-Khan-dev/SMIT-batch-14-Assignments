@@ -164,7 +164,7 @@ h1{
 
 }
 
-@media only screen and (max-width:477px){
+@media only screen and (max-width:800px){
     .container , #listParent li {
         width: 90%;
         min-width: 260px;
