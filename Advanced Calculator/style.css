@@ -24,6 +24,7 @@ body{
 
 .container{
     width: 30%;
+    min-width: 350px;
     box-shadow: rgba(127, 207, 253, 0.875) 0px 3px 8px;
     border-radius: 5px;
     background-color: transparent;
@@ -81,6 +82,12 @@ body{
 .tablecontainer{
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
+}
+
+@media  screen  and (max-width: 500px) {
+    h1{
+        font-size: 40px !important;
+    }
 }
 
 
